@@ -1,0 +1,7 @@
+/* Importe arquivo 'reset.css'  */
+@import url('./reset.css');
+
+/* CSS Inicial */
+body{
+    background-color: black;
+}
