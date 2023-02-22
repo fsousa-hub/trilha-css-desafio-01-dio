@@ -109,3 +109,23 @@ section {
     color: #33A8DB;
 }
 
+
+/* Transforme Mundo */
+#transform-world{
+    height: 560px;    
+    padding: 200px;
+    background-size: cover;
+    background-image: url('../images/woman-code.png');
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+
+#transform-world p{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+}
