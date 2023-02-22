@@ -85,16 +85,16 @@ section {
 }
 
 /* CSS - Course */
-#course-content{
+#course-content {
     width: 800px;
     text-align: center;
 }
 
-#course-content .modules-list{
+#course-content .modules-list {
     margin: 24px 0;
 }
 
-#course-content .modules-list .module{
+#course-content .modules-list .module {
     margin: 0 auto 24px;
     padding: 16px;
     width: 530px;
@@ -105,14 +105,14 @@ section {
     box-shadow: inset --5px 6px 8px rgba(0, 0, 0, .7);
 }
 
-#course-content .modules-list .module span{
+#course-content .modules-list .module span {
     color: #33A8DB;
 }
 
 
 /* Transforme Mundo */
-#transform-world{
-    height: 560px;    
+#transform-world {
+    height: 560px;
     padding: 200px;
     background-size: cover;
     background-image: url('../images/woman-code.png');
@@ -122,10 +122,39 @@ section {
 }
 
 
-#transform-world p{
+#transform-world p {
     font-size: 2.5rem;
     font-weight: 900;
     text-transform: uppercase;
     max-width: 250px;
     text-shadow: 3px 2px #33A8DB;
+}
+
+/* Professional Challenges */
+#professional-challenges {
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challengs img {
+    margin: 32px 0;
+}
+
+
+/* Footer  */
+footer{
+    padding: 60px 0;
+    text-align: center;
+    border-top: 1px solid #33A8DB80;
+    background-image: linear-gradient(rgba(50, 168, 219, .2));   
+}
+
+footer .dio-logo{
+    width: 300px;
+}
+
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #33A8DB;
 }
