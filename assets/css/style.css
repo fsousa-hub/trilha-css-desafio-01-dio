@@ -2,6 +2,84 @@
 @import url('./reset.css');
 
 /* CSS Inicial */
-body{
+body {
     background-color: black;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+p {
+    color: white;
+}
+
+section {
+    margin: 100px auto;
+}
+
+/* Banner */
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+.banner .banner-content {
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: transparent;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.banner p {
+    font-size: 1.25rem;
+    margin: 16px 0 24px;
+}
+
+.banner .logo {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    margin-bottom: 16px;
+    border-radius: 50%;
+}
+
+.banner .logo img {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.banner .banner-content button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #31A8DD;
+    padding: 16px 32px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 30px;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
 }
