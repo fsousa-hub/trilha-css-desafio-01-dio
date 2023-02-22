@@ -83,3 +83,29 @@ section {
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
 }
+
+/* CSS - Course */
+#course-content{
+    width: 800px;
+    text-align: center;
+}
+
+#course-content .modules-list{
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module{
+    margin: 0 auto 24px;
+    padding: 16px;
+    width: 530px;
+    color: white;
+    background-color: #252525;
+    border-color: 1px solid #33A8DB;
+    border-radius: 100px;
+    box-shadow: inset --5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#course-content .modules-list .module span{
+    color: #33A8DB;
+}
+
